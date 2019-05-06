@@ -1,3 +1,5 @@
+console.log("Objects Challenges Start Here");
+
 // Let's get some practice writing a few objects for a new group of interns at a small business.
 
 // ==== Challenge 1: Writing Objects ==== 
@@ -31,7 +33,7 @@ const userTwo = {
   firstName: "Kennan",
   gender: "M",
   speak: function(){
-    console.log("Hello, my name is" + this.name + "!");
+    console.log("Hello, my name is " + this.firstName + "!");
   }
 }
 
@@ -54,7 +56,7 @@ const userFive = {
   email: "adaine5@samsung.com",
   firstName: "Antonietta",
   gender: "F",
-  multiplyNums: function(num1, mun2){
+  multiplyNums: function(num1, num2){
     return num1 * num2;
   }
 }
@@ -64,20 +66,20 @@ const userFive = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-userOne.firstName
+console.log(userOne.firstName);
 // Kennan's ID
-userTwo.id
+console.log(userTwo.id);
 // Keven's email
-userThree.email
+console.log(userThree.email);
 // Gannie's name
-userFour.firstName
+console.log(userFour.firstName);
 // Antonietta's Gender
-userFive.gender
+console.log(userFive.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
-conslole.log(userTwo.speak());
+console.log(userTwo.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
